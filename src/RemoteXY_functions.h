@@ -5,12 +5,12 @@
 
 
 
-String mainURL ="http://192.168.8.148";
+String mainURL ="http://192.168.8.146:8000";
 JsonDocument doc;
 
 
 long get_data_timer = 0;
-long get_data_interval = 250; // ms
+long get_data_interval = 500; // ms
 
 
 // convert float to char array

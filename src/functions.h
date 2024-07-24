@@ -69,7 +69,7 @@ void readSensors() {
 }
 
 long send_data_timer = 0;
-long send_data_interval = 500; // ms
+long send_data_interval = 1000; // ms
 
 
 void sendInverterData() {
